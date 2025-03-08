@@ -82,6 +82,102 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+canvas {
+  display: block;
+}
+
+.instructions {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10;
+  max-width: 280px;
+  line-height: 1.4;
+}
+
+.instructions h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.instructions ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.instructions li {
+  margin-bottom: 6px;
+}
+
+.color-picker {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.color-picker input {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.texture-picker {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.texture-picker input {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.texture-controls {
+  position: absolute;
+  bottom: 100px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10;
+  width: 220px;
+}
+
+.texture-controls h3 {
+  margin-bottom: 8px;
+}
+
+.texture-controls label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.texture-controls input {
+  width: 100%;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
